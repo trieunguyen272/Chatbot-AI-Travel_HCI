@@ -1,0 +1,229 @@
+{
+    "intents": [{
+            "tag": "lời chào hỏi",
+            "patterns": [
+                "Chào bạn",
+                "xin chào",
+                "Chào",
+                "này",
+                "hey"
+            ],
+            "responses": [
+                "xin chào, cảm ơn bạn vì đã liên hệ",
+                "xin chào, tôi có thể giúp gì cho bạn"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tạm biệt",
+            "patterns": [
+                "bye",
+                "Tạm biệt",
+                "hẹn gặp lại",
+                "Bái bai",
+                "Nói chuyện sau",
+                "Gặp lại sau"
+            ],
+            "responses": [
+                "chúc bạn có một khoảng thời gian vui vẻ, chào mừng bạn quay lại lần nữa",
+                "tạm biệt bạn",
+                "Gặp bạn sau",
+                "Ngày tốt lành nhé"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cảm ơn",
+            "patterns": [
+                "cảm ơn",
+                "okay",
+                "Hữu ích",
+                "Thật sự cảm ơn",
+                "Cảm ơn vì đã giúp tôi",
+                "Cám ơn bạn rất nhiều",
+                "Tôi thực sự rất trân trọng điều đó",
+                "Bạn thật chu đáo",
+                "Tôi thực sự rất biết ơn vì điều này"
+            ],
+            "responses": [
+                "Vui vẻ giúp đỡ bạn",
+                "Bất cứ lúc nào bạn cần giúp cứ liên hệ tôi",
+                "không có gì",
+                "Hân hạnh"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Đặt vé máy bay",
+            "patterns": [
+                "Đặt vé máy bay trước bao lâu là hợp lý?",
+                "tôi nên đặt vé máy bay khi nào?",
+                "thời gian nên đặt vé máy bay",
+                "khi nào nên đặt vé máy bay?"
+            ],
+            "responses": [
+                "Thông thường, đối với tour nội địa, bạn có thể đặt mua vé trước ít nhất từ 2-3 tuần, còn đối với những chuyến bay quốc tế bạn nên đặt vé trước từ 1 đến 2 tháng. Tuyệt đối không đặt vé máy bay trong vòng 24h trước khi bay, bạn sẽ không thể nhận được mức giá tốt cũng như còn rất ít sự lựa chọn."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "đặt khách sạn",
+            "patterns": [
+                "Nên đặt khách sạn trước bao lâu?",
+                "tôi nên đặt khách sạn khi nào?",
+                "thời gian nên đặt khách sạn?",
+                "khi nào nên đặt khách sạn?"
+            ],
+            "responses": [
+                "Nên đặt phòng khách sạn ngay sau khi bạn đã chốt được lịch cho chuyến đi của mình. Bạn có thể đặt phòng trực tiếp với khách sạn, hoặc có thể nhờ đến những công ty du lịch lữ hành để nhận được mức giá tốt nhất. Không nên đặt phòng khách sạn ngay trước hôm bạn đi, sẽ rất khó để chọn được một phòng tốt và được hưởng mức giá ưu đãi từ phía khách sạn."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "đặt tour",
+            "patterns": [
+                "Nên đặt tour khi nào?",
+                "Nên đặt tour trước bao lâu?",
+                "thời gian nên đặt tour",
+                "khi nào nên đặt tour?"
+            ],
+            "responses": [
+                "Thời điểm tuyệt vời nhất để bạn đặt tour đó là khi bạn đã sẵn sàng cho chuyến du lịch của mình, tham khảo giá của các công ty du lịch lữ hành, và lựa chọn một công ty du lịch uy tín để chuyến bay của bạn thuận lợi và an toàn nhất.",
+                "Không có thời điểm nào là tốt nhất cho việc mua tour du lịch, mà nó phụ thuộc vào nhu cầu và điều kiện của bạn. Và giá tour du lịch có sự chênh lệch tùy vào các mùa hoặc từng chương trình khuyến mãi. Do đó, bạn có thể tìm hiểu trước để đặt được tour phù hợp nhất. Và để tránh tình trạng mua rồi mà không thực hiện được, bạn chỉ nên mua tour khi đã sẵn sàng bay."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chuyến bay bị hủy",
+            "patterns": [
+                "Nếu chuyến bay bị hủy, tôi nên làm gì đầu tiên?",
+                "làm gì khi chuyến bay bị hủy?",
+                "liên hệ với ai nếu chuyến bay bị hủy?",
+                "cách xử lý khi chuyến bay bị hủy?"
+            ],
+            "responses": [
+                "Trong trường hợp chuyến bay của bạn bị hủy, việc bạn nên làm ngay đó là đến quầy bán vé và trình bày về tình trạng hiện giờ của chuyến bay, để hãng hàng không sẽ sắp xếp đổi cho bạn sang giờ bay gần nhất.",
+                "Nếu bạn không may chuyến bay của bạn bị hủy, thì việc đầu tiên cần làm, là hãy đến quầy bán vé để được tư vấn chọn giải pháp. Trong lúc đó, bạn vừa có thể liên lạc bộ phận dịch vụ khách hàng để nhờ sự trợ giúp."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Visa du lịch",
+            "patterns": [
+                "Làm thế nào để xin Visa du lịch?",
+                "tôi muốn xin Visa du lịch?",
+                "cách để xin Visa du lịch?",
+                "liên hệ với ai để xin Visa du lịch?",
+                "Để xin visa thuận lợi? "
+            ],
+            "responses": [
+                "Để việc xin visa du lịch thuận lợi nhất, bạn nên tìm hiểu kỹ về quy định cấp visa của nước bạn đến. Bạn có thể liên hệ với đại sứ quán để nộp hồ sơ trực tiếp.",
+                "Trước khi xin, bạn nên tìm hiểu về quy định xin visa của nước đến. Ví dụ như nước đó có đề nghị visa hay không, thường được cấp trong thời hạn bao lâu, đề nghị cụ thể khi xin là gì… Bạn cũng có thể thực hiện cuộc gọi điện đến lãnh sự quán hoặc đặt lịch hẹn để được chỉ dẫn về việc nộp hồ sơ qua nhà mạng hay phải đến trực diện. Phí xin visa tùy theo từng nước nên có mức khác nhau, mà bạn nên tham khảo trước."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bảo hiểm du lịch",
+            "patterns": [
+                "Có nên mua bảo hiểm khi đi du lịch không?",
+                "việc mua bảo hiểm khi đi du lịch có cần thiết không?",
+                "Khi nào thì cần bảo hiểm du lịch?"
+            ],
+            "responses": [
+                "Bạn hoàn toàn nên đầu tư cho việc mua bảo hiểm trước khi đi du lịch. Chúng giúp bạn cảm thấy yên tâm hơn trước mỗi chuyến đi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hành lý bị trễ",
+            "patterns": [
+                "Nên làm gì khi hành lý bị trễ?",
+                "liên hệ với ai nếu hành lý bị trễ?",
+                "cách xử lý khi hành lý bị trễ?"
+            ],
+            "responses": [
+                "Khi bạn đã đến sân bay mà hành lý vẫn chưa đến băng chuyền, việc đầu tiên bạn nên làm đó là liên hệ với nhân viên hàng không, họ sẽ giúp bạn kiểm tra mã hành lý và giúp bạn lấy lại hành lý của mình."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vật dụng cần thiết",
+            "patterns": [
+                "mang vật dụng gì khi đi du lịch?",
+                "những vật dụng cần thiết khi đi du lịch",
+                "những thứ cần mang theo khi đi du lịch",
+                "đi du lịch nên mang theo những gì",
+                "Đi du lịch nên mang theo những vật dụng nào?"
+            ],
+            "responses": [
+                "Đầu tiên là những đồ dùng sinh hoạt cá nhân đều được chuẩn bị tại khách sạn, nhưng nếu bạn không quen sử dụng những thứ mà khách sạn đưa cho thì hãy mang theo những thứ đó từ nhà nhé. Hãy mang theo những thứ đơn giản như kính râm, bộ trang điểm, giày dép gọn nhẹ. Một số vật dụng hết sức cần thiết và không thể thiếu trong hành trình của bạn phải kể đến như giấy tờ tùy thân, điện thoại, máy ảnh, máy tính (nếu cần), đồ sạc các thiết bị trên, cục sạc dự phòng, ổ cắm đa quốc gia..."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "quần áo",
+            "patterns": [
+                "Nên mang theo bao nhiêu bộ quần áo?",
+                "số lượng quần áo cần mang theo",
+                "nên chuẩn bị quần áo như thế nào",
+                "mang quần áo như thế nào là thích hợp"
+            ],
+            "responses": [
+                "Đầu tiên bạn phải xác dịnh mình đi bao nhiêu ngày, tiếp theo hãy theo dõi diễn biến thời tiết của nơi mình sẽ đến để có thể sắp xếp vali quần áo một cách khoa học và chuẩn xác nhất nhé. Tuy nhiên, bạn vẫn phải chuẩn bị ít nhất 2 áo khoác, găng tay, tất chân và khăn choàng. Đây là những thứ cần thiết để khi xuống sân bay bạn không bị sốc vì thay đổi khí hậu đột ngột."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thuốc",
+            "patterns": [
+                "Có nên mang theo thuốc hay không?",
+                "những thuốc cần mang khi đi du lịch",
+                "nên chuẩn bị theo thuốc gì"
+            ],
+            "responses": [
+                "bạn cần mang theo những loại thuốc đơn giản có thể đáp ứng ngay cho sức khỏe bản thân mình như thuốc đau bụng, đau đầu, cảm cúm, dầu gió hay bông băng. Đối với những người có bệnh mãn tính thì đừng quên những lọ thuốc đặc trị của họ  nhé."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mua vé máy bay tiết kiệm",
+            "patterns": [
+                "Mua vé máy bay thế nào cho tiết kiệm?",
+                "làm sao để mua được vé máy bay giá rẻ",
+                "cách săn vé máy bay giá rẻ"
+            ],
+            "responses": [
+                "Nên tìm và đặt mua vé máy bay sớm nhất có thể để săn được những vé máy bay giá rẻ từ các hãng hàng không. Đừng bỏ qua những khuyến mãi thường niên của các hãng hàng không uy tín để có được một hành trình với chất lượng cao nhất nhưng với giá rẻ nhất nhé.."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
