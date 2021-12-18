@@ -1,7 +1,6 @@
-# An-AI-Chatbot-in-Python-and-Flask
-An AI Chatbot using Python and Flask REST API 
-<h3>Execution</h3>
-<p>To run this Bot, First run the train.py file to train the model. This will generate a file named chatbot_model.h5. <br>
-This is the model which will be used by the Flask REST API to easily give feedback.<br>
-After running train.py, next run the app.py to initialize and start the bot.<br>
-To add more terms and voccabulary to the bot, modify the intents.json file and add your personalized words and retrain the model again.</p>
+# Chatbot-AI-Travel_HCI
+Một Chatbot AI sử dụng Python và API REST Flask
+<h3>Thực thi</h3>
+<p>Để chạy Bot này, Đầu tiên hãy chạy tệp train.py để đào tạo mô hình. Thao tác này sẽ tạo một tệp có tên chatbot_model.h5. <br>
+Đây là mô hình sẽ được sử dụng bởi API Flask REST để dễ dàng đưa ra phản hồi.<br>
+Sau khi chạy train.py, tiếp theo hãy chạy app.py để khởi tạo và khởi động bot.<br></p>
